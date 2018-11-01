@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: #3a3b44;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+}
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.header-container img{
+  width: 115px;
+  height: 45px;
+  margin-right: 55px;
+}
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  list-style-type: none;
+}
+.header-leftnav{
+  display: flex;
+  align-items: center;
+}
+
+.header-login{
+  display: flex;
+  justify-content: space-around;
+  width: 320px;
+
+}
+.head-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #58a673;
+  width: 100px;
+  border-radius: 2px;
+  border:1px solid #58a673;
+}
+.head-btn:hover{
+  color: #fff;
+  background-color: #58a673;
+}
+.dl-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 70px;
+  color: #fff;
+  background-color: #58a673;
+  border-radius: 2px;
+}
+
+.nav-home{
+  color:  #58a673;
+  font-size: 15px;
+}
+.nav-item{
+  color: #fff;
+  font-size: 15px;
+}
+.nav-item:hover{
+  color: #58a673;
+}
+/*_______________头部结束___________________*/
+.about-container{
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+}
+.about-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  padding-top: 70px ;
+}
+.about-title{
+  margin-bottom: 70px;
+}
+.about-title span{
+  display: inline-block;
+  font-size: 42px;
+  color: #3f464b;
+  line-height: 50px;
+}
+.about-title p{
+  display: inline-block;
+  font-size: 18px;
+  color: #b1b1b5;
+  margin-left: 20px;
+}
+.about-content{
+  font-size: 16px;
+  line-height: 30px
+}
+.about-content p{
+  margin-bottom: 16px;
+}
+/*___________结束________*/
+.believe-container{
+  display: flex;
+  justify-content: center;
+}
+.believe-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+}
+.believe-list-title{
+  margin-bottom: 70px;
+}
+.believe-list-title span{
+  display: inline-block;
+  font-size: 42px;
+  color: #3f464b;
+  line-height: 50px;
+}
+.believe-list-title p{
+  display: inline-block;
+  font-size: 18px;
+  color: #b1b1b5;
+  margin-left: 20px;
+}
+.list-main-content span{
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  background-color: #62bd82;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 25px;
+  box-shadow: 0 5px 5px #deede3;
+  margin-right: 15px;
+}
+.list-main-content p{
+  font-size: 16px;
+  line-height: 30px;
+  color: #3f464b;
+  width: 360px;
+}
+.list-main-content{
+  display: flex;
+  width: 500px;
+  height: 130px;
+}
+.believe-list-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*________结束________*/
+.page-footer{
+  display: flex;
+  justify-content: center;
+  background-color:#1d1a33;
+}
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1000px;
+  padding-top: 60px;
+}
+.footer-top{
+  display: flex;
+}
+.about{
+  width: 230px;
+  margin-right: 80px;
+}
+.title-tongyi{
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  height: 50px;
+  line-height: 20px;
+}
+.title-tongyi:after{
+  content: "";
+  display: block;
+  margin-top: 10px;
+  margin-left: 2px;
+  width:19px;
+  height: 3px;
+  background-color: #292644;
+}
+.subnav{
+  list-style-type: none;
+}
+.intro{
+  font-size: 14px;
+  color: #8a8b91;
+  line-height: 28px;
+}
+.navbottom{
+  width: 160px;
+}
+.contact-us{
+  width: 230px;
+}
+.logo-bottom{
+  width: 115px;
+  height: 45px;
+  margin-right: 170px;
+}
+.footer-bottom{
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  height: 32px;
+  line-height: 32px;
+  width: 1000px;
+  font-size: 12px;
+  border-top: 1px solid #8a8b9136;
+}
+.footer-bottom img{
+  height: 17px;
+  width: 17px;
+}
